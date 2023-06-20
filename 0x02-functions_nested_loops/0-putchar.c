@@ -1,6 +1,4 @@
-#include "0-putchar.c"
 #include "main.h"
-
 
 /**
  * main - Entry point
@@ -20,5 +18,5 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 
-return (0);
+	return (0);
 }
