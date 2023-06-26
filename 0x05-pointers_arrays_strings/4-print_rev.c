@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
   * print_rev - Returns the length of a string.
   * @s: char pointer.
