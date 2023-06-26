@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
   * print_rev - Returns the length of a string.
   * @s: char pointer.
@@ -7,17 +6,19 @@
   */
 void print_rev(char *s)
 {
-	int length = 0;
+	int length;
 
-	while (*(s + length) != 0)
+	while (*s != 0)
 	{
 		length++;
+		s++;
 	}
-
-	while (int i = length - 1; i >= 0;i--)
+	s--;
+	while (length - 1 >= 0)
 	{
-		_putchar(*(s + i));
+		_putchar(*s);
+		length--;
+		s--;
 	}
-
 	_putchar(10);
 }
