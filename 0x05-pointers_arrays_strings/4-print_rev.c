@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
   * print_rev - Returns the length of a string.
   * @s: char pointer.
@@ -6,18 +6,18 @@
   */
 void print_rev(char *s)
 {
-	int length;
+	int count;
 
 	while (*s != 0)
 	{
-		length++;
+		count++;
 		s++;
 	}
 	s--;
-	while (length - 1 >= 0)
+	while (count - 1 >= 0)
 	{
 		_putchar(*s);
-		length--;
+		count--;
 		s--;
 	}
 	_putchar(10);
