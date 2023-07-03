@@ -2,8 +2,8 @@
 
 /**
  * _strpbrk - search a string.
- * char *s - first character.
- * char *accept - second character.
+ * @s - first character.
+ * @accept - second character.
  * Return: number or null.
  */
 
