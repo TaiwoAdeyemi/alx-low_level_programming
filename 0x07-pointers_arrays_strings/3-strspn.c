@@ -2,9 +2,9 @@
 
 /**
  * _strspn - Locates a character in a string
- * @s: first character.
+ * @s: first character
  * @accept: second character.
- * Return: count
+ * Return: count.
  **/
 
 unsigned int _strspn(char *s, char *accept)
