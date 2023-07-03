@@ -4,18 +4,18 @@
  * _strpbrk - search a string.
  * char *s - first character.
  * char *accept - second character.
- * Return: s or null.
+ * Return: number or null.
  */
 
 char *_strpbrk(char *s, char *accept)
 {
-	int i, j;
+	int index, index2;
 
-	for (i = 0; s[i] != 0; i++)
+	for (index = 0; s[index] != 0; index++)
 	{
-		for (j = 0; accept[j] != 0; j++)
-			if (s[i] == accept[j])
-				return (s + i);
+		for (index2 = 0; accept[index2] != 0; index2++)
+			if (s[index] == accept[index2])
+				return (s + index);
 	}
 	return (0);
 }
