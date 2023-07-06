@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-  * is_prime_number - integer is a prime number.
+  * prime_number - auxiliar function.
   * @n: number of function.
-  * 
+  * @n_module: number.
   * Return: number prime.
   */
 int prime_number(int n, int n_module)
