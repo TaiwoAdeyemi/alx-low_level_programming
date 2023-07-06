@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * _sqrt_recursion - natural square root.
+  * _sqrt - natural square root.
   * @n: n of the fuction _sqrt_recursion.
   * @sqrt: number for power.
   * Return: resulting square root.
