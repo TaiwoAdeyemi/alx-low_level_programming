@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
   * is_prime_number - integer is a prime number.
   * @n: number of function.
